@@ -1,0 +1,113 @@
+<!doctype html>
+	<head>
+		<title>🌟 Akili Mingi Online Courses </title>
+		<link rel="stylesheet" href= "Styles/style.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<img src = "Images/logo.PNG" style = "width: 50px; height: 50px; border-radius: 20px;">
+					<li><a href = "home.html">Home</a></li>
+					<li><a href = "about.html">About Us</a></li>
+					<li><a href = "course.html">Courses</a></li>
+					<li><a href = "contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<button onclick="clickButton()" style="background-color: rgb(253, 233, 49); font-size: 24px;">Click Here</button>
+		<button ondblclick="dblClickButton()" style="background-color: rgb(253, 233, 49); font-size: 24px;">Double Click Here</button>
+
+			<section class = "cover" style= "background-image: url("Images/cover.jpg")>
+			<h3>Welcome to Akili Mingi Online Courses</h3>
+			<p class = "cover">
+				We offer courses in Web Design, Graphic Design,
+				Cyber Security,<br>  Network Administration, Programming,
+				Data Analysis,<br>  Computer essential, AI and Mobile App 
+				Development.
+			</p>
+		
+		</section>
+		<section>
+			<!-- We now use the div tag with class="courses"
+			to group courses in one place-->
+			<div class = "courses">
+				<!--We now create another div card with each course
+				Each course card has image, course title, 
+				course description, button (register/buy)
+				-->
+				<div class = "course-card">
+					<img src="Images/webdesign.jpg"> <!--Course icon/image-->
+					<h3>Web Design in HTML</h3> <!--course title-->
+					<p>HTML Basics to Advanced</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/computer.jpg"> <!--Course icon/image-->
+					<h3>Computer Essentials</h3> <!--course title-->
+					<p>Introduction to Computers</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/graphicdesign.jpg"> <!--Course icon/image-->
+					<h3>Graphic Design</h3> <!--course title-->
+					<p>Learn  Graphic Design using Photoshop and Canva</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/artificialintelligence.jpg"> <!--Course icon/image-->
+					<h3>Artificial Intelligence</h3> <!--course title-->
+					<p>Master basics concepts in AI</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/mobileappdev.jpg"> <!--Course icon/image-->
+					<h3>Mobile App Development</h3> <!--course title-->
+					<p>Learn to create modern, interactive mobile apps</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/dataanalysis.jpg"> <!--Course icon/image-->
+					<h3>Data Analysis</h3> <!--course title-->
+					<p>Welcome to Data Analysis Course</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/cybersecurity.jpg"> <!--Course icon/image-->
+					<h3>Cyber Security</h3> <!--course title-->
+					<p>Learn the skill of ethical hacking and cybersecurity</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/uidesign.jpg"> <!--Course icon/image-->
+					<h3>UI/UX Design</h3> <!--course title-->
+					<p>Become a modern UI/UX designer</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+				<div class = "course-card">
+					<img src="Images/computernetworks.jpg"> <!--Course icon/image-->
+					<h3>Networking</h3> <!--course title-->
+					<p>Be a Pro in Network Administration</p> <!--course description-->
+					<button>Buy Course 👁‍🗨</button>
+				</div>
+			</div>
+		</section>
+		<p id = "message">This is the last paragraph: Showing how to use JS getElementById() Method</p>
+		<footer>
+			<p>&copy Akili Mingi 2025 - All Rights Reserved.</p>
+		</footer>
+		<script>
+			let message = document.getElementById("message");
+			// You can add javascript code here
+			function clickButton(){
+				alert("You clicked the button"); // alert() shows pop up message
+			}
+
+			function dblClickButton(){
+				alert("You Double clicked the button"); // alert() shows pop up message
+			}
+
+		</script>
+	</body>
+</html>
